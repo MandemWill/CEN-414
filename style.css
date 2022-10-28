@@ -1,0 +1,97 @@
+.container {
+  width: 400px;
+  background-color:beige;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 10% auto 2%;
+  border-radius: 10%;
+  padding: 1%;
+}
+.calendar {
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+}
+#highlights {
+  text-align: center;
+  list-style-type: none;
+}
+#highlights li {
+  padding: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.calendar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 15px;
+  border-bottom: 19px;
+}
+
+.current-month {
+  font-size: 30px;
+  font-weight: bold;
+  color:pink;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.nav-btn {
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #000;
+  border-radius: 15px;
+  border: 2px solid transparent;
+}
+
+.nav-btn:hover {
+  background-color: purple;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.weekdays-name,
+.calendar-days {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 60px;
+}
+
+.weekdays-name {
+  padding-top: 12px;
+}
+
+.calendar-days {
+  padding-bottom: 12px;
+}
+
+.days-name,
+[class$="-day"] {
+  width: 40px;
+  height: 40px;
+  color: magenta;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.days-name {
+  color:darkgreen;
+  font-weight: 700;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.padding-day {
+  color: #a5a5a5;
+  user-select: none;
+}
+
+.month-day {
+  border-radius: 50%;
+}
